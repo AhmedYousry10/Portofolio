@@ -1,6 +1,6 @@
 /**
  * MODERN DARK PORTFOLIO - JAVASCRIPT
- * Karim Helal Portfolio 2025
+ * Ahmed Helal Portfolio 2025
  *
  * Features:
  * - Advanced animations and scroll effects
@@ -143,7 +143,7 @@ const App = {
 
 // Initialize application when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("🚀 Karim Helal Portfolio initializing...");
+  console.log("🚀 Ahmed Helal Portfolio initializing...");
 
   // Initialize core systems
   initializeApp();
@@ -854,7 +854,7 @@ async function initGitHubIntegration() {
 }
 
 async function fetchGitHubRepos(repositories) {
-  const username = "karimhelal";
+  const username = "Ahmedhelal";
   const now = Date.now();
 
   // Check cache
@@ -1246,7 +1246,7 @@ async function submitFormData(data) {
   );
   const emailBody = encodeURIComponent(
     `
-Hi Karim,
+Hi Ahmed,
 
 Name: ${name}
 Email: ${email}
@@ -1263,7 +1263,7 @@ ${name}
   await new Promise((resolve) => setTimeout(resolve, 1500));
 
   // Open email client
-  window.location.href = `mailto:karimhelalkh110@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+  window.location.href = `mailto:ahmedu3helal@gmail.com?subject=${emailSubject}&body=${emailBody}`;
 }
 
 function setSubmitButtonState(button, state) {
@@ -1697,16 +1697,14 @@ function initCodeAnimation() {
 
   const codeSnippet = `var me = new Person()
 {
-    Name = "Karim Helal",
-    Role = "Computer Science Student",
-    University = "Damietta University",
-    Passion = "Backend Development",
-    Skills = new[] { "C#", ".NET", "SQL", "Machine Learning" },
-    Dream = "To become a professional .NET Backend Developer
+    Name = "Ahmed Helal",
+    Role = "Software Engineer",
+    Study = "Faculty of Engineering",
+    Passion = "Proffessional Web Development (.Net & Angular)",
+    Skills = new[] { "Frontend", "Backend", "SQL Server"},
+    Dream = "To become a professional Software Engineer
     with AI skills"
 };
-
-me.Introduce();
 `;
 
   typeCode(codeElement, codeSnippet);
